@@ -1,14 +1,14 @@
-import Todos from "./components/Todos"
-import ColorModeContainer from "./components/ColorModeContainer"
+import { Switch, Route, Redirect } from 'react-router-dom'
+import Account from './pages/Account'
+import Home from './pages/Home'
 
 function App() {
   return (
-    <ColorModeContainer>
-      <div className="container my-4">
-        <h1 className="text-center">ToDos App</h1>
-        <Todos />
-      </div>
-    </ColorModeContainer>
+    <Switch>
+      <Route exact path='/' component={Home} />
+      <Route exact path='/Account' component={Account} />
+      <Redirect to='/' />
+    </Switch>
   )
 }
 
