@@ -1,0 +1,62 @@
+.Account {
+  padding: 20px;
+  margin: auto;
+}
+
+.Account h2 {
+  color: brown;
+  text-align: center;
+  padding: 5px;
+}
+
+.btn-add-account {
+  display:block;
+  margin: auto;
+  margin-top: 10px;
+  width:150px;
+  line-height:50px;
+  text-align:center;
+  color:white;
+  text-decoration:none;
+  background-color: black;
+}
+
+.st-login {
+  color: blue;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  display: block;
+}
+
+.st-login-champs {
+  margin: auto;
+  padding: 5px;
+  display: block;
+}
+
+.st-password {
+  margin: auto;
+  padding: 5px;
+  display: block;
+  color: blue;
+  text-align: center;
+}
+
+.st-password-champs {
+  margin: auto;
+  padding: 5px;
+  display: block;
+}
+
+.btn-connect {
+  display:block;
+  margin: auto;
+  margin-top: 10px;
+  width:150px;
+  line-height:50px;
+  text-align:center;
+  color:white;
+  text-decoration:none;
+  background-color: black;
+}
