@@ -1,16 +1,16 @@
 
 .Navigation {
-  text-align: center;
+  text-align: left;
   font-size: 20px;
   letter-spacing: 2px;
   text-decoration: none;
 }
 
 .nav-home {
-  color: #000;
+  color: rgb(12, 130, 240);
   padding: 20px;
 }
 .nav-account {
-  color: #000;
+  color: rgb(12, 130, 240);
   padding: 20px;
 }
